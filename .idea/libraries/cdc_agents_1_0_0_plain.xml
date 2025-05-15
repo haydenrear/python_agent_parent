@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cdc_agents-1.0.0-plain">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/packages/cdc_agents/build/libs/cdc_agents-1.0.0-plain.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
