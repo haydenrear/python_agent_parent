@@ -1,46 +1,27 @@
 [project]
 name = "python-parent"
 version = "0.0.1"
-description = "A Docker MCP Server"
+description = "Python Parent for CDC Agents"
 
 dependencies=[
-    "asyncclick>=8.1.8",
-    "asyncio>=3.4.3",
-    "click>=8.1.8",
-    "httpx>=0.28.1",
-    "httpx-sse>=0.4.0",
-    "pydantic==2.11.3",
-    "sse-starlette>=2.2.1",
-    "starlette>=0.46.1",
-    "streamlit>=1.44.0",
-    "uvicorn>=0.34.0",
-    "python-dotenv==1.0.0",
-    "torch==2.0.1",
-    "jwcrypto>=1.5.6",
-    "pyjwt>=2.10.1",
-    "injector==0.22.0",
-    "networkx==3.1",
-    "langgraph>=0.3.18",
-    "rerankers==0.8.0",
-    "langchain==0.3.24",
-    "langchain-mcp-adapters==0.0.9",
-    "langgraph==0.3.34",
-    "langchain-ollama==0.3.2",
-    "python_di",
-    "python_util",
-    "aisuite"
+    "python-di",
+    "python-util",
+    "drools_py",
+    "aisuite",
+    "model_server",
+    "cdc_agents",
 ]
 
 requires-python = ">=3.10"
 
-[tool.uv.sources]
-aisuite = { workspace = true }
-cdc_agents = { workspace = true }
-drools_py = { workspace = true }
-model_server = { workspace = true }
-python_di = { workspace = true }
-python_util = { workspace = true }
-
 [tool.uv.workspace]
 members = ["packages/*"]
 exclude = ["packages/seeds"]
+
+[tool.uv.sources]
+python-di = {workspace = true}
+python_util = {workspace = true}
+drools_py = {workspace = true}
+aisuite = {workspace = true}
+model_server = {workspace = true}
+cdc_agents = {workspace = true}
