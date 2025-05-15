@@ -1,0 +1,21 @@
+[submodule "aisuite"]
+	path = aisuite
+	url = ./packages/aisuite
+[submodule "packages/aisuite"]
+	path = packages/aisuite
+	url = ../ml/integrations/aisuite/.git
+[submodule "packages/python_di"]
+	path = packages/python_di
+	url = ../drools/python_di/.git
+[submodule "packages/python_util"]
+	path = packages/python_util
+	url = ../drools/python_util/.git
+[submodule "packages/drools_py"]
+	path = packages/drools_py
+	url = ../drools/drools_py/.git
+[submodule "packages/model_server"]
+	path = packages/model_server
+	url = ../drools/model_server/.git
+[submodule "packages/cdc_agents"]
+	path = packages/cdc_agents
+	url = ../drools/cdc_agents/.git
