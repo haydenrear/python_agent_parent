@@ -3,16 +3,16 @@
 	url = git@github.com:haydenrear/aisuite
 [submodule "packages/python_di"]
 	path = packages/python_di
-	url = ../drools/python_di/.git
+	url = git@github.com:haydenrear/python_di
 [submodule "packages/python_util"]
 	path = packages/python_util
-	url = ../drools/python_util/.git
+	url = git@github.com:haydenrear/python_util
 [submodule "packages/drools_py"]
 	path = packages/drools_py
-	url = ../drools/drools_py/.git
+	url = git@github.com:haydenrear/drools_py
 [submodule "packages/model_server"]
 	path = packages/model_server
-	url = ../drools/model_server/.git
+	url = git@github.com:haydenrear/model_server
 [submodule "packages/cdc_agents"]
 	path = packages/cdc_agents
-	url = ../drools/cdc_agents/.git
+	url = git@github.com:haydenrear/cdc_agents
