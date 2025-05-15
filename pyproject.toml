@@ -36,10 +36,10 @@ requires-python = ">=3.10"
 [tool.uv.sources]
 aisuite = { workspace = true }
 cdc_agents = { workspace = true }
-#drools_py = { workspace = true }
-#model_server = { workspace = true }
-#python_di = { workspace = true }
-#python_util = { workspace = true }
+drools_py = { workspace = true }
+model_server = { workspace = true }
+python_di = { workspace = true }
+python_util = { workspace = true }
 
 [tool.uv.workspace]
 members = ["packages/*"]
