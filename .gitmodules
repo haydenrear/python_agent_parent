@@ -1,6 +1,6 @@
 [submodule "aisuite"]
 	path = aisuite
-	url = ./packages/aisuite
+	url = git@github.com:haydenrear/aisuite
 [submodule "packages/aisuite"]
 	path = packages/aisuite
 	url = ../ml/integrations/aisuite/.git
