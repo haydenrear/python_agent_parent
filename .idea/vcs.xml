@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../drools/cdc_agents" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../drools/drools_py" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../drools/model_server" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../drools/python_di" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../drools/python_util" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/aisuite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/cdc_agents" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/drools_py" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/model_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/python_di" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/python_util" vcs="Git" />
   </component>
 </project>
