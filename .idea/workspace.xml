@@ -5,15 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/architecture-ideas/trailing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Dockerfile_a2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Dockerfile_base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Dockerfile_mcp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Dockerfile_testmcp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/docker/Dockerfile_base" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/docker/Dockerfile_base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/docker/Dockerfile_mcp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/docker/Dockerfile_mcp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/docker/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/docker/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/mcp_client_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/mcp_client_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/drools_py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/drools_py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/drools_py/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/drools_py/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/requirements-docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/requirements-docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_util" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_util" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_util/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_util/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +44,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -60,13 +90,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests in test (1).executor": "Run",
     "Python tests.Python tests in test.executor": "Run",
+    "Python.cdc_agents_mcp.executor": "Debug",
+    "Python.mcp_client_main.executor": "Debug",
     "Python.model_server_main.executor": "Debug",
     "Python.run_cdc_agents.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hayde/IdeaProjects/python_parent/packages/cdc_agents",
+    "last_opened_file_path": "/Users/hayde/IdeaProjects/python_parent",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,10 +122,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents" />
       <recent name="$PROJECT_DIR$/packages/aisuite" />
       <recent name="$PROJECT_DIR$/packages/model_server" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -101,6 +133,52 @@
     </key>
   </component>
   <component name="RunManager" selected="uv.Project script: run-mcp-client">
+    <configuration name="cdc_agents_mcp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_parent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mcp_client_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_parent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/mcp_client_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_cdc_agents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_parent" />
       <option name="ENV_FILES" value="" />
@@ -130,26 +208,6 @@
     </configuration>
     <configuration name="Project script: run-model-server" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
       <option name="scriptName" value="run-model-server" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Project script: test-model-server" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
-      <option name="scriptName" value="test-model-server" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_parent" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/aisuite/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/packages/aisuite/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -203,10 +261,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="uv.Project script: run-mcp-client" />
+        <item itemvalue="Python.mcp_client_main" />
+        <item itemvalue="Python.cdc_agents_mcp" />
         <item itemvalue="uv.Project script: run-model-server" />
         <item itemvalue="Python.run_cdc_agents" />
-        <item itemvalue="Python tests.Python tests in test (1)" />
-        <item itemvalue="uv.Project script: test-model-server" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +292,7 @@
       <workItem from="1747340479187" duration="493000" />
       <workItem from="1747340978262" duration="954000" />
       <workItem from="1747345023826" duration="3308000" />
-      <workItem from="1747412817321" duration="9065000" />
+      <workItem from="1747412817321" duration="17673000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -388,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747347566031</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747425970415</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1747425970415</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,19 +465,10 @@
     <MESSAGE value="move for code complete" />
     <option name="LAST_COMMIT_MESSAGE" value="move for code complete" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/python_di/src/python_di/inject/injector_provider.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1747337957179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
+    <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747430048418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
+    <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1747340907039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/aisuite/test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747347543445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
   </component>
