@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_parent.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,41 +61,41 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in test (1).executor": "Run",
-    "Python tests.Python tests in test.executor": "Run",
-    "Python.cdc_agents_mcp.executor": "Debug",
-    "Python.mcp_client_main.executor": "Run",
-    "Python.model_server_main.executor": "Debug",
-    "Python.run_cdc_agents.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hayde/IdeaProjects/python_parent",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15501264",
-    "project.structure.side.proportion": "0.28125",
-    "uv.Project script: run-mcp-client.executor": "Run",
-    "uv.Project script: run-model-server.executor": "Run",
-    "uv.Project script: test-cdc-agents.executor": "Run",
-    "uv.Project script: test-model-server.executor": "Run",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cdc_agents_mcp.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.mcp_client_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_server_main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.run_cdc_agents.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hayde/IdeaProjects/python_parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15501264&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28125&quot;,
+    &quot;uv.Project script: run-mcp-client.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: run-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-cdc-agents.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -266,7 +268,8 @@
       <workItem from="1747340479187" duration="493000" />
       <workItem from="1747340978262" duration="954000" />
       <workItem from="1747345023826" duration="3308000" />
-      <workItem from="1747412817321" duration="18742000" />
+      <workItem from="1747412817321" duration="24930000" />
+      <workItem from="1747499278670" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -436,7 +439,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747435546335</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747436308719</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747436308719</updated>
+    </task>
+    <task id="LOCAL-00023" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747436441912</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747436441912</updated>
+    </task>
+    <task id="LOCAL-00024" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747436912411</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1747436912411</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,11 +493,6 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/mcp/server/fastmcp/tools/tool_manager.py</url>
           <line>39</line>
           <option name="timeStamp" value="33" />
@@ -485,7 +507,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1747337957179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
-    <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436295501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
+    <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1747340907039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/aisuite/test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747347543445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
