@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +241,7 @@
       <workItem from="1747345023826" duration="3308000" />
       <workItem from="1747412817321" duration="24930000" />
       <workItem from="1747499278670" duration="46000" />
-      <workItem from="1747499334810" duration="22912000" />
+      <workItem from="1747499334810" duration="24774000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -488,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747532141368</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747534603793</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1747534603793</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
