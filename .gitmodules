@@ -9,7 +9,7 @@
 	url = git@github.com:haydenrear/python_util
 [submodule "packages/drools_py"]
 	path = packages/drools_py
-	url = git@github.com:haydenrear/drools_py
+	url = ../../python_parent/packages/drools_py
 [submodule "packages/model_server"]
 	path = packages/model_server
 	url = git@github.com:haydenrear/model_server
