@@ -15,6 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/packages/model_server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages/python_di/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages/python_util/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/cdc_agents/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/model_server/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

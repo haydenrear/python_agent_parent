@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T111505.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T111727.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T112930.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T112945.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T113608.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T113631.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.test_env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.test_env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server/.test_env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.test_env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_parent.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/cdc_agents" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -263,7 +243,7 @@
       <workItem from="1747412817321" duration="24930000" />
       <workItem from="1747499278670" duration="46000" />
       <workItem from="1747499334810" duration="24774000" />
-      <workItem from="1747586666153" duration="9127000" />
+      <workItem from="1747586666153" duration="9443000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -513,7 +493,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747534603793</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747672209661</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1747672209661</updated>
+    </task>
+    <task id="LOCAL-00033" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747672232004</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1747672232004</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
