@@ -1,0 +1,34 @@
+{
+  "jsonrpc": "2.0",
+  "id": "14ad0325ec574e45b7981f67fadc6eba",
+  "result": {
+    "id": "test",
+    "sessionId": "test",
+    "status": {
+      "state": "completed",
+      "message": {
+        "role": "agent",
+        "parts": [
+          {
+            "type": "text",
+            "text": "The repository has been successfully added to the embedding database. The branch 'main' is being embedded for the session with ID 'test'. The operation is running asynchronously, so you can perform other tasks while the server processes it.\n\nIf you need further assistance or additional actions, feel free to ask!"
+          }
+        ]
+      },
+      "timestamp": "2025-05-19T11:17:27.927589"
+    },
+    "artifacts": [
+      {
+        "parts": [
+          {
+            "type": "text",
+            "text": "The repository has been successfully added to the embedding database. The branch 'main' is being embedded for the session with ID 'test'. The operation is running asynchronously, so you can perform other tasks while the server processes it.\n\nIf you need further assistance or additional actions, feel free to ask!"
+          }
+        ],
+        "index": 0
+      }
+    ],
+    "history": [],
+    "to_process": []
+  }
+}

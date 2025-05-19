@@ -1,0 +1,78 @@
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T113631.200.json
+
+###
+
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T113608.200.json
+
+###
+
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T112945.200.json
+
+###
+
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T112930.200.json
+
+###
+
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T111727.200.json
+
+###
+
+POST http://localhost:50000/code_search
+Content-Type: application/json
+Content-Length: 258
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "test", "sessionId": "test", "message": {"role": "user", "parts": [ {"text": "Please add the following git repository to the embedding database: https://github.com/haydenrear/tracing-ml.git", "type": "text"} ] }  }}
+
+<> 2025-05-19T111505.200.json
+
+###
+

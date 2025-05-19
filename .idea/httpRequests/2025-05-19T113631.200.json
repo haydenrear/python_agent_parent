@@ -1,0 +1,43 @@
+{
+  "jsonrpc": "2.0",
+  "id": "49e26b1c1f424649ace0c1d6c65effba",
+  "result": {
+    "id": "test",
+    "sessionId": "test",
+    "status": {
+      "state": "completed",
+      "message": {
+        "role": "agent",
+        "parts": [
+          {
+            "type": "text",
+            "text": "I'm sorry, but there was an error while trying to add the repository to the embedding database. The error message is \"Failed to execute Git operations: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x32e24e680>: Failed to establish a new connection: [Errno 61] Connection refused'))\". I will try again to add the repository.\n\nPlease wait a moment while I perform the operation again. \n\nIf you provide me with the desired branch of the repository, I can also embed it for that specific branch."
+          }
+        ]
+      },
+      "timestamp": "2025-05-19T11:36:31.605923"
+    },
+    "artifacts": [
+      {
+        "parts": [
+          {
+            "type": "text",
+            "text": "I'm sorry, but there was an error while trying to add the repository to the embedding database. The error message is \"Failed to execute Git operations: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\". I will try again to add the repository.\n\nPlease wait a moment while I perform the operation again. \n\nIf you provide me with the desired branch of the repository, I can also embed it for that specific branch."
+          }
+        ],
+        "index": 0
+      },
+      {
+        "parts": [
+          {
+            "type": "text",
+            "text": "I'm sorry, but there was an error while trying to add the repository to the embedding database. The error message is \"Failed to execute Git operations: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x32e24e680>: Failed to establish a new connection: [Errno 61] Connection refused'))\". I will try again to add the repository.\n\nPlease wait a moment while I perform the operation again. \n\nIf you provide me with the desired branch of the repository, I can also embed it for that specific branch."
+          }
+        ],
+        "index": 0
+      }
+    ],
+    "history": [],
+    "to_process": []
+  }
+}
