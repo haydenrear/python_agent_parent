@@ -5,13 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/architecture-ideas/message-state-edits.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/tool_call_properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/prompt_provider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/prompt_provider/provide_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/tools/tool_call_decorator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/runner_props.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/runner_props.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/fixtures/agent_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/fixtures/agent_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/drools_py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/drools_py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/drools_py/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/packages/drools_py/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/drools_py/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/drools_py/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_util" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_util" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_util/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_util/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTTP Request" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -60,7 +94,6 @@
 }</component>
   <component name="HttpClientSelectedEnvironments">
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
-    <file url="file:///private/var/folders/b7/rsz3g6wn4hg8zl2bwmdx61q00000gn/T/whats-new-dir/whats-new.http" environment="test" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -88,6 +121,7 @@
     "Python tests.Python tests in cdc_agents_test.executor": "Debug",
     "Python tests.Python tests in test (1).executor": "Run",
     "Python tests.Python tests in test.executor": "Run",
+    "Python tests.Python tests in test_deep_orchestrator_test.py.executor": "Run",
     "Python.a2a.executor": "Run",
     "Python.cdc_agents_mcp.executor": "Debug",
     "Python.mcp_client_main.executor": "Run",
@@ -136,7 +170,7 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.test | #2">
+  <component name="RunManager" selected="Python tests.Python tests in test_deep_orchestrator_test.py">
     <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/packages/cdc_agents/test.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -166,30 +200,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_cdc_agents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_parent" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="DOCKER_HOST" value="unix://$USER_HOME$/.docker/run/docker.sock" />
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main/run_cdc_agents.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_parent" />
       <option name="ENV_FILES" value="" />
@@ -206,24 +216,40 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_deep_orchestrator_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_parent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="HTTP Request.test | #1" />
       <item itemvalue="HTTP Request.test | #2" />
-      <item itemvalue="Python.a2a" />
       <item itemvalue="Python.run_cdc_agents" />
+      <item itemvalue="Python.a2a" />
       <item itemvalue="Python tests.model_servert tests" />
       <item itemvalue="Python tests.Python tests" />
+      <item itemvalue="Python tests.Python tests in test_deep_orchestrator_test.py" />
       <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
       <item itemvalue="uv.Project script: run-cdc-agents" />
       <item itemvalue="uv.Project script: test-cdc-agents" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_deep_orchestrator_test.py" />
         <item itemvalue="HTTP Request.test | #2" />
-        <item itemvalue="Python.run_cdc_agents" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
         <item itemvalue="Python.a2a" />
-        <item itemvalue="HTTP Request.test | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +280,11 @@
       <workItem from="1747412817321" duration="24930000" />
       <workItem from="1747499278670" duration="46000" />
       <workItem from="1747499334810" duration="24774000" />
-      <workItem from="1747586666153" duration="42786000" />
+      <workItem from="1747586666153" duration="42813000" />
+      <workItem from="1747706446007" duration="93000" />
+      <workItem from="1747763862073" duration="6749000" />
+      <workItem from="1747772448896" duration="1128000" />
+      <workItem from="1747773596503" duration="7163000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -584,7 +614,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747705050898</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747706261625</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1747706261625</updated>
+    </task>
+    <task id="LOCAL-00043" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747706280370</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1747706280370</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,6 +685,56 @@
           <line>2456</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/fixtures/agent_fixtures.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -658,8 +754,8 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1747669757587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1747689369731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
-    <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747706183033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1747780751900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
+    <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747778301992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
 </project>

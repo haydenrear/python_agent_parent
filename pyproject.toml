@@ -12,7 +12,7 @@ dependencies=[
     "cdc_agents",
 ]
 
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 
 [tool.uv.workspace]
 members = ["packages/*"]

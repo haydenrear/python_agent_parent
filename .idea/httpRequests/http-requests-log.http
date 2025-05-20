@@ -7,6 +7,123 @@ Accept: */*
 
 { "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
 
+<> 2025-05-20T162431.200.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T154651.200.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T154622.200.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T154333.200.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T144257.200.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T144022.400.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T143915.400.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T143827.400.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
+<> 2025-05-20T143759.400.json
+
+###
+
+POST http://localhost:50000/deep_code_orchestrator
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "method": "tasks/send", "params": {"id": "1234", "sessionId": "1234", "message": {"role": "user", "parts": [ {"text": "Please retrieve the git status of the repository in the directory /Users/hayde/IdeaProjects/drools", "type": "text"} ] }  }}
+
 <> 2025-05-19T215725.200.json
 
 ###
