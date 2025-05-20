@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: python-parent
+Version: 0.0.1
+Summary: Python Parent for CDC Agents
+Requires-Python: >=3.10
+Requires-Dist: python-di
+Requires-Dist: python-util
+Requires-Dist: drools_py
+Requires-Dist: aisuite
+Requires-Dist: model_server
+Requires-Dist: cdc_agents

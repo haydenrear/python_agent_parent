@@ -1,0 +1,6 @@
+python-di
+python-util
+drools_py
+aisuite
+model_server
+cdc_agents
