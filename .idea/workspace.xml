@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -244,7 +254,7 @@
       <workItem from="1747412817321" duration="24930000" />
       <workItem from="1747499278670" duration="46000" />
       <workItem from="1747499334810" duration="24774000" />
-      <workItem from="1747586666153" duration="41347000" />
+      <workItem from="1747586666153" duration="42786000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -550,7 +560,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747703144420</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747704860010</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1747704860010</updated>
+    </task>
+    <task id="LOCAL-00040" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747704943714</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1747704943714</updated>
+    </task>
+    <task id="LOCAL-00041" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1747705050898</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747705050898</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +659,7 @@
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1747669757587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1747689369731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
-    <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747703035692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
+    <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747706183033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
 </project>
