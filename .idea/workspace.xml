@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete" />
+    <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +262,7 @@
       <workItem from="1747772448896" duration="1128000" />
       <workItem from="1747773596503" duration="7236000" />
       <workItem from="1747780857812" duration="4833000" />
-      <workItem from="1747930899309" duration="2715000" />
+      <workItem from="1747930899309" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
