@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/graphql_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/graphql_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +263,7 @@
       <workItem from="1747780857812" duration="4833000" />
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
-      <workItem from="1748191118227" duration="5251000" />
+      <workItem from="1748191118227" duration="7377000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
