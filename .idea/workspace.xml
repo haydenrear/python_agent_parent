@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/docker/test_cdc_agents.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/aws_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/aws_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/azure_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/azure_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/fireworks_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/fireworks_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/google_provider_shared.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/google_provider_shared.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/langchain_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/langchain_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
