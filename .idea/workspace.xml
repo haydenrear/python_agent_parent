@@ -5,10 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_aws_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_azure_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_fireworks_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_langchain_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.factorypath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.factorypath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/graphql_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/graphql_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +283,7 @@
       <workItem from="1747780857812" duration="4833000" />
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
-      <workItem from="1748191118227" duration="7377000" />
+      <workItem from="1748191118227" duration="7980000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -641,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748128093275</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748210301098</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1748210301098</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
