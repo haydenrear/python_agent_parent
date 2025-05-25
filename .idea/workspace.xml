@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/docker/test_cdc_agents.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/aws_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/aws_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/azure_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/azure_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/fireworks_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/fireworks_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/google_provider_shared.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/google_provider_shared.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/langchain_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite/src/aisuite/providers/langchain_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +48,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/model_server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/cdc_agents" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -73,52 +83,53 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in cdc_agents_test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_deep_orchestrator_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a2a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cdc_agents_mcp.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mcp_client_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_server_main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.run_cdc_agents.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hayde/IdeaProjects/drools/python_parent/packages/model_server/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15501264&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28125&quot;,
-    &quot;uv.Project script: run-cdc-agents.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: run-mcp-client.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: run-model-server.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: test-cdc-agents.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: test-model-server.executor&quot;: &quot;Run&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.test | #1.executor": "Run",
+    "HTTP Request.test | #2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
+    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Debug",
+    "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Debug",
+    "Python tests.Python tests in cdc_agents_test.executor": "Run",
+    "Python tests.Python tests in test (1).executor": "Run",
+    "Python tests.Python tests in test.executor": "Run",
+    "Python tests.Python tests in test_deep_orchestrator_test.py.executor": "Run",
+    "Python.a2a.executor": "Run",
+    "Python.cdc_agents_mcp.executor": "Debug",
+    "Python.mcp_client_main.executor": "Run",
+    "Python.model_server_main.executor": "Debug",
+    "Python.run_cdc_agents.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/hayde/IdeaProjects/drools/python_parent/packages/model_server/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15501264",
+    "project.structure.side.proportion": "0.28125",
+    "uv.Project script: run-cdc-agents.executor": "Run",
+    "uv.Project script: run-mcp-client.executor": "Run",
+    "uv.Project script: run-model-server.executor": "Run",
+    "uv.Project script: test-cdc-agents.executor": "Run",
+    "uv.Project script: test-model-server.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSON&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/model_server/resources" />
@@ -132,12 +143,25 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="uv.Project script: test-model-server">
-    <configuration name="test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/packages/cdc_agents/test.http" executionIdentifier="#2" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in cdc_agents_test">
     <configuration name="Project script: test-model-server" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
       <option name="scriptName" value="test-model-server" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_parent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -156,6 +180,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in cdc_agents_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_parent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_parent" />
       <option name="ENV_FILES" value="" />
@@ -172,41 +212,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_deep_orchestrator_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_parent" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/cdc_agents/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="HTTP Request.test | #2" />
       <item itemvalue="Python.run_cdc_agents" />
       <item itemvalue="Python tests.model_servert tests" />
       <item itemvalue="Python tests.Python tests" />
+      <item itemvalue="Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke" />
+      <item itemvalue="Python tests.Python tests in cdc_agents_test" />
       <item itemvalue="Python tests.Python tests in test" />
       <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
-      <item itemvalue="Python tests.Python tests in test_deep_orchestrator_test.py" />
       <item itemvalue="uv.Project script: run-cdc-agents" />
       <item itemvalue="uv.Project script: test-cdc-agents" />
       <item itemvalue="uv.Project script: test-model-server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in cdc_agents_test" />
+        <item itemvalue="Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke" />
         <item itemvalue="uv.Project script: test-model-server" />
         <item itemvalue="Python tests.Python tests in test" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
-        <item itemvalue="Python tests.Python tests in test_deep_orchestrator_test.py" />
-        <item itemvalue="HTTP Request.test | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +269,7 @@
       <workItem from="1747780857812" duration="4833000" />
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
+      <workItem from="1748191118227" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="add submodules">
       <option name="closed" value="true" />
@@ -705,24 +730,14 @@
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/fixtures/agent_fixtures.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="119" />
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/task_manager.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
-          <line>194</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
-          <line>193</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py</url>
-          <line>192</line>
-          <option name="timeStamp" value="122" />
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -743,7 +758,7 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1747669757587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748129292444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/aisuite/test" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748192506327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1747778301992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
