@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_aws_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_azure_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_fireworks_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/aisuite/test/providers/test_langchain_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.factorypath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.factorypath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/aisuite" beforeDir="false" afterPath="$PROJECT_DIR$/packages/aisuite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
