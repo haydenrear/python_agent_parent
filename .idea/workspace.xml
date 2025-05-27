@@ -7,19 +7,12 @@
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/a2a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/secret_config_props.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/secret_config_props.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_provider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/python_di" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/python_di/src/python_di/inject/profile_composite_injector/inject_context_di.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di/src/python_di/inject/profile_composite_injector/inject_context_di.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/python_di/src/python_di/env/env_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/python_di/src/python_di/env/env_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/cdc_agents" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/python_di" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -272,31 +265,7 @@
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
       <workItem from="1748191118227" duration="18163000" />
-      <workItem from="1748310622829" duration="3940000" />
-    </task>
-    <task id="LOCAL-00002" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747335311390</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1747335311390</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747338763780</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1747338763780</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747339041213</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1747339041213</updated>
+      <workItem from="1748310622829" duration="7167000" />
     </task>
     <task id="LOCAL-00005" summary="add submodules">
       <option name="closed" value="true" />
@@ -666,7 +635,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748290453393</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748374188267</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1748374188267</updated>
+    </task>
+    <task id="LOCAL-00052" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748374276569</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1748374276569</updated>
+    </task>
+    <task id="LOCAL-00053" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748374282794</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1748374282794</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
