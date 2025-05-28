@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +270,7 @@
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
       <workItem from="1748191118227" duration="18163000" />
-      <workItem from="1748310622829" duration="13306000" />
+      <workItem from="1748310622829" duration="13906000" />
     </task>
     <task id="LOCAL-00008" summary="add submodules">
       <option name="closed" value="true" />
