@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/model_server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +83,11 @@
     "HTTP Request.test | #2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Run",
+    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Debug",
     "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Run",
     "Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor": "Debug",
     "Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor": "Debug",
-    "Python tests.Python tests in cdc_agents_test.executor": "Run",
+    "Python tests.Python tests in cdc_agents_test.executor": "Debug",
     "Python tests.Python tests in reflection_tests.executor": "Run",
     "Python tests.Python tests in test (1).executor": "Debug",
     "Python tests.Python tests in test.executor": "Run",
@@ -143,7 +140,7 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in cdc_agents_test">
+  <component name="RunManager" selected="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model">
     <configuration name="Project script: run-mcp-client" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
       <option name="scriptName" value="run-mcp-client" />
       <method v="2" />
@@ -226,10 +223,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in cdc_agents_test" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
-        <item itemvalue="Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
+        <item itemvalue="Python tests.Python tests in cdc_agents_test" />
+        <item itemvalue="Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader" />
         <item itemvalue="uv.Project script: run-mcp-client" />
       </list>
     </recent_temporary>
@@ -270,7 +267,7 @@
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
       <workItem from="1748191118227" duration="18163000" />
-      <workItem from="1748310622829" duration="13906000" />
+      <workItem from="1748310622829" duration="17826000" />
     </task>
     <task id="LOCAL-00008" summary="add submodules">
       <option name="closed" value="true" />
@@ -722,11 +719,6 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/language_model_input_parser.py</url>
-          <line>176</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/packages/python_di/src/python_di/reflect_scanner/import_resolver/python_import_resolver.py</url>
           <line>50</line>
           <option name="timeStamp" value="130" />
@@ -755,7 +747,7 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1748289094083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748384826174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748455951969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1748289702772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
