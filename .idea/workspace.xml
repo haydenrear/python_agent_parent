@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/model_server/model_server_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
     "HTTP Request.test | #2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Debug",
+    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Run",
     "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Run",
     "Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor": "Debug",
     "Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor": "Debug",
@@ -140,7 +141,7 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model">
+  <component name="RunManager" selected="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status">
     <configuration name="Project script: run-mcp-client" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
       <option name="scriptName" value="run-mcp-client" />
       <method v="2" />
@@ -223,8 +224,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
+        <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
         <item itemvalue="Python tests.Python tests in cdc_agents_test" />
         <item itemvalue="Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader" />
         <item itemvalue="uv.Project script: run-mcp-client" />
@@ -267,31 +268,7 @@
       <workItem from="1747930899309" duration="3255000" />
       <workItem from="1748126567259" duration="3503000" />
       <workItem from="1748191118227" duration="18163000" />
-      <workItem from="1748310622829" duration="17826000" />
-    </task>
-    <task id="LOCAL-00008" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747340157550</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1747340157550</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747340385282</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1747340385282</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add submodules">
-      <option name="closed" value="true" />
-      <created>1747340405472</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1747340405472</updated>
+      <workItem from="1748310622829" duration="27831000" />
     </task>
     <task id="LOCAL-00011" summary="add submodules">
       <option name="closed" value="true" />
@@ -661,7 +638,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748384761411</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748456031858</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1748456031858</updated>
+    </task>
+    <task id="LOCAL-00058" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748456034085</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1748456034085</updated>
+    </task>
+    <task id="LOCAL-00059" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1748456205535</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1748456205535</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,6 +729,11 @@
           <line>53</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -747,7 +753,7 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1748289094083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748455951969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1748472867440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1748289702772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
