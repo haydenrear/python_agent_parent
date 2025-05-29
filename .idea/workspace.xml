@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -74,56 +78,56 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.test | #1.executor": "Run",
-    "HTTP Request.test | #2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Run",
-    "Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor": "Debug",
-    "Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor": "Debug",
-    "Python tests.Python tests in cdc_agents_test.executor": "Debug",
-    "Python tests.Python tests in reflection_tests.executor": "Run",
-    "Python tests.Python tests in test (1).executor": "Debug",
-    "Python tests.Python tests in test.executor": "Run",
-    "Python tests.Python tests in test_deep_orchestrator_test.py.executor": "Run",
-    "Python.a2a.executor": "Run",
-    "Python.cdc_agents_mcp.executor": "Debug",
-    "Python.mcp_client_main.executor": "Run",
-    "Python.model_server_main.executor": "Debug",
-    "Python.run_cdc_agents.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/src/cdc_agents/config",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15501264",
-    "project.structure.side.proportion": "0.28125",
-    "uv.Project script: run-cdc-agents.executor": "Run",
-    "uv.Project script: run-mcp-client.executor": "Run",
-    "uv.Project script: run-model-server.executor": "Run",
-    "uv.Project script: test-cdc-agents.executor": "Run",
-    "uv.Project script: test-model-server.executor": "Run",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in cdc_agents_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in reflection_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_deep_orchestrator_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a2a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cdc_agents_mcp.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.mcp_client_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_server_main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.run_cdc_agents.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/src/cdc_agents/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15501264&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28125&quot;,
+    &quot;uv.Project script: run-cdc-agents.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: run-mcp-client.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: run-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-cdc-agents.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSON"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config" />
@@ -137,7 +141,7 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model">
+  <component name="RunManager" selected="Python tests.Python tests in cdc_agents_test">
     <configuration name="Project script: run-mcp-client" type="insyncwithfoo.ryecharm.uv" factoryName="insyncwithfoo.ryecharm.uv.projectscript" temporary="true">
       <option name="scriptName" value="run-mcp-client" />
       <method v="2" />
@@ -220,9 +224,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in cdc_agents_test" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
-        <item itemvalue="Python tests.Python tests in cdc_agents_test" />
         <item itemvalue="Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader" />
         <item itemvalue="uv.Project script: run-mcp-client" />
       </list>
@@ -265,6 +269,7 @@
       <workItem from="1748126567259" duration="3503000" />
       <workItem from="1748191118227" duration="18163000" />
       <workItem from="1748310622829" duration="32239000" />
+      <workItem from="1748533822904" duration="1716000" />
     </task>
     <task id="LOCAL-00011" summary="add submodules">
       <option name="closed" value="true" />
