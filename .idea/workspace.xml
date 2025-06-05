@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CdcCodeSearchAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CdcCodegenAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CodeRunnerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/DeepCodeOrchestrator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/LibraryEnumerationAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/SummarizerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/.context-meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/CdcCodeSearchAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/CdcCodegenAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/CodeRunnerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/DeepCodeOrchestrator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/HumanDelegateAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/LibraryEnumerationAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/SummarizerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/.context-meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CdcCodeSearchAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CdcCodegenAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeRunnerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/DeepCodeOrchestrator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/HumanDelegateAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/LibraryEnumerationAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/SummarizerAgent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/.context-meta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/HumanDelegateAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/HumanDelegateAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,63 +107,63 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in cdc_agents_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in reflection_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_deep_orchestrator_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a2a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cdc_agents_mcp.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mcp_client_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_server_main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.run_cdc_agents.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/src/cdc_agents/config&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15501264&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28125&quot;,
-    &quot;uv.Project script: run-cdc-agents.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: run-mcp-client.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: run-model-server.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: test-cdc-agents.executor&quot;: &quot;Run&quot;,
-    &quot;uv.Project script: test-model-server.executor&quot;: &quot;Run&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.test | #1.executor": "Run",
+    "HTTP Request.test | #2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
+    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Run",
+    "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Run",
+    "Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor": "Debug",
+    "Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor": "Debug",
+    "Python tests.Python tests in cdc_agents_test.executor": "Run",
+    "Python tests.Python tests in reflection_tests.executor": "Run",
+    "Python tests.Python tests in test (1).executor": "Debug",
+    "Python tests.Python tests in test.executor": "Run",
+    "Python tests.Python tests in test_deep_orchestrator_test.py.executor": "Run",
+    "Python.a2a.executor": "Run",
+    "Python.cdc_agents_mcp.executor": "Debug",
+    "Python.mcp_client_main.executor": "Run",
+    "Python.model_server_main.executor": "Debug",
+    "Python.run_cdc_agents.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/prompts/description_prompts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15501264",
+    "project.structure.side.proportion": "0.28125",
+    "uv.Project script: run-cdc-agents.executor": "Run",
+    "uv.Project script: run-mcp-client.executor": "Run",
+    "uv.Project script: run-model-server.executor": "Run",
+    "uv.Project script: test-cdc-agents.executor": "Run",
+    "uv.Project script: test-model-server.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSON&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config" />
       <recent name="$PROJECT_DIR$/packages/model_server/resources" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/packages/cdc_agents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -268,14 +301,7 @@
       <workItem from="1748533822904" duration="3265000" />
       <workItem from="1748705536479" duration="3084000" />
       <workItem from="1748899961976" duration="3453000" />
-    </task>
-    <task id="LOCAL-00013" summary="move for code complete">
-      <option name="closed" value="true" />
-      <created>1747340893079</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1747340893079</updated>
+      <workItem from="1749069391042" duration="5630000" />
     </task>
     <task id="LOCAL-00014" summary="move for code complete">
       <option name="closed" value="true" />
@@ -661,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748535733108</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1749070605310</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1749070605310</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
