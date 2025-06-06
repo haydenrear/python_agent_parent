@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition/.context-meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/.context-meta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestration_message_prompts/.context-meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestration_message_prompts/DeepCodeAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts/DeepCodeAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/.context-meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +138,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_prompts" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestration_message_prompts" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config" />
-      <recent name="$PROJECT_DIR$/packages/model_server/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts" />
       <recent name="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
@@ -286,23 +295,7 @@
       <workItem from="1748705536479" duration="3084000" />
       <workItem from="1748899961976" duration="3453000" />
       <workItem from="1749069391042" duration="10130000" />
-      <workItem from="1749158200709" duration="4896000" />
-    </task>
-    <task id="LOCAL-00016" summary="move for code complete">
-      <option name="closed" value="true" />
-      <created>1747340993176</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1747340993176</updated>
-    </task>
-    <task id="LOCAL-00017" summary="move for code complete">
-      <option name="closed" value="true" />
-      <created>1747347471747</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1747347471747</updated>
+      <workItem from="1749158200709" duration="5834000" />
     </task>
     <task id="LOCAL-00018" summary="move for code complete">
       <option name="closed" value="true" />
@@ -680,7 +673,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749150747325</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1749242388846</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1749242388846</updated>
+    </task>
+    <task id="LOCAL-00066" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1749242832852</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1749242832852</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,11 +760,6 @@
           <url>file://$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_deep_orchestrator_test.py</url>
           <line>106</line>
           <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
