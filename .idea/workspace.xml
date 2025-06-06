@@ -169,7 +169,7 @@
       <recent name="$PROJECT_DIR$/packages/aisuite/src/aisuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in cdc_agents_test">
+  <component name="RunManager" selected="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status">
     <configuration name="Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_parent" />
       <option name="ENV_FILES" value="" />
@@ -264,10 +264,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
         <item itemvalue="Python tests.Python tests in cdc_agents_test" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_cdc_commit_analysis_with_mock" />
         <item itemvalue="Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model" />
-        <item itemvalue="Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status" />
         <item itemvalue="Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader" />
       </list>
     </recent_temporary>
