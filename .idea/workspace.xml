@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CodeBuildAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CodeDeployAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/TestRunnerAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/CodeBuildAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/CodeDeployAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/TestRunnerAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeBuildAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeDeployAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/TestRunnerAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_build_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_deploy_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/test_runner_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/.context-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/description_prompts/CodeRunnerAgent.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/.context-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrated_prompts/CodeRunnerAgent.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/DeepCodeAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/DeepCodeAgent.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/.context-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeRunnerAgent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeBuildAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeBuildAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeDeployAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/CodeDeployAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/TestRunnerAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/system_prompts/TestRunnerAgent.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_runner_agent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,15 +291,7 @@
       <workItem from="1748705536479" duration="3084000" />
       <workItem from="1748899961976" duration="3453000" />
       <workItem from="1749069391042" duration="10130000" />
-      <workItem from="1749158200709" duration="10437000" />
-    </task>
-    <task id="LOCAL-00022" summary="move for code complete">
-      <option name="closed" value="true" />
-      <created>1747436308719</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1747436308719</updated>
+      <workItem from="1749158200709" duration="11029000" />
     </task>
     <task id="LOCAL-00023" summary="move for code complete">
       <option name="closed" value="true" />
@@ -702,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749311085368</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1749313155432</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1749313155432</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +776,7 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1748289094083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1749313040790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1749313281530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1748289702772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
