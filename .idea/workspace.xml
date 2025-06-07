@@ -5,36 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc59b979-8d37-45c7-b8ad-c6e0492b81b2" name="Changes" comment="move for code complete">
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/CdcCodeSearchAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/CdcCodegenAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/CodeBuildAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/CodeDeployAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/DeepCodeAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/DeepCodeOrchestrator.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/HumanDelegateAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/LibraryEnumerationAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/SummarizerAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/completion_definition_prompts/TestRunnerAgent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts/.context-meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts/StateGraphOrchestratorAgentCompletion.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts/StateGraphOrchestratorAgentToolCompletion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application-docker.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/.context-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/DeepCodeAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_system_prompts/DeepCodeAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_orchestrator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/cdc_server_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_build_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_build_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_deploy_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/code_deploy_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent/agent_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/deep_code_research_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/human_delegate_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/human_delegate_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/library_enumeration_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/library_enumeration_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/summarizer_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/test_runner_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agents/test_runner_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/test/cdc_agents_test/test_model_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/common/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/config/agent_config_props.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client/cdc_agents_mcp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,59 +83,59 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.test | #1.executor": "Run",
-    "HTTP Request.test | #2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for cdc_agents_test.test_a2a_agent_response_graph.TestA2AResponse.test_a2a_response.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_cdc_commit_analysis_with_mock.executor": "Run",
-    "Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor": "Run",
-    "Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor": "Debug",
-    "Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor": "Debug",
-    "Python tests.Python tests in cdc_agents_test.executor": "Run",
-    "Python tests.Python tests in reflection_tests.executor": "Run",
-    "Python tests.Python tests in test (1).executor": "Debug",
-    "Python tests.Python tests in test.executor": "Run",
-    "Python tests.Python tests in test_a2a_agent_response_graph.py.executor": "Run",
-    "Python tests.Python tests in test_deep_orchestrator_test.py.executor": "Run",
-    "Python.a2a.executor": "Run",
-    "Python.cdc_agents_mcp.executor": "Debug",
-    "Python.mcp_client_main.executor": "Run",
-    "Python.model_server_main.executor": "Debug",
-    "Python.run_cdc_agents.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15501264",
-    "project.structure.side.proportion": "0.28125",
-    "uv.Project script: run-cdc-agents.executor": "Run",
-    "uv.Project script: run-mcp-client.executor": "Run",
-    "uv.Project script: run-model-server.executor": "Run",
-    "uv.Project script: test-cdc-agents.executor": "Run",
-    "uv.Project script: test-model-server.executor": "Run",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_a2a_agent_response_graph.TestA2AResponse.test_a2a_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_a2a_server.A2AServerTest.test_receive_a2a_invoke.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_deep_orchestrator_test.ModelServerModelTest.test_model_server_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_cdc_commit_analysis_with_mock.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for cdc_agents_test.test_model_flow.ModelServerModelTest.test_git_status.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for env_tests.test_properties_loader_test.TestPropertyLoader.test_property_loader.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for reflection_tests.test_program_parser_test.ModuleScannerTest.test_module_import.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in cdc_agents_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in reflection_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_a2a_agent_response_graph.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_deep_orchestrator_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a2a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cdc_agents_mcp.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.mcp_client_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_server_main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.run_cdc_agents.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/hayde/Library/Application Support/JetBrains/IntelliJIdea2023.3/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hayde/IdeaProjects/drools/python_parent/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15501264&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28125&quot;,
+    &quot;uv.Project script: run-cdc-agents.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: run-mcp-client.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: run-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-cdc-agents.executor&quot;: &quot;Run&quot;,
+    &quot;uv.Project script: test-model-server.executor&quot;: &quot;Run&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSON"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/cdc_agents/prompts/orchestrator_graph_agent_completion_prompts" />
@@ -315,15 +295,8 @@
       <workItem from="1748705536479" duration="3084000" />
       <workItem from="1748899961976" duration="3453000" />
       <workItem from="1749069391042" duration="10130000" />
-      <workItem from="1749158200709" duration="14031000" />
-    </task>
-    <task id="LOCAL-00024" summary="move for code complete">
-      <option name="closed" value="true" />
-      <created>1747436912411</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1747436912411</updated>
+      <workItem from="1749158200709" duration="14034000" />
+      <workItem from="1749316753822" duration="1837000" />
     </task>
     <task id="LOCAL-00025" summary="move for code complete">
       <option name="closed" value="true" />
@@ -709,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749313739853</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="move for code complete">
+      <option name="closed" value="true" />
+      <created>1749316745683</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1749316745683</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,7 +781,7 @@
     <SUITE FILE_PATH="coverage/python_parent$mcp_client_main.coverage" NAME="mcp_client_main Coverage Results" MODIFIED="1747436417881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
     <SUITE FILE_PATH="coverage/python_parent$model_server_main.coverage" NAME="model_server_main Coverage Results" MODIFIED="1748289094083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/model_server/src/model_server/main" />
     <SUITE FILE_PATH="coverage/python_parent$cdc_agents_mcp.coverage" NAME="cdc_agents_mcp Coverage Results" MODIFIED="1747427532629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/mcp_client" />
-    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1749316681124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
+    <SUITE FILE_PATH="coverage/python_parent$.coverage" NAME=" Coverage Results" MODIFIED="1749317957764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/test" />
     <SUITE FILE_PATH="coverage/python_parent$run_cdc_agents.coverage" NAME="run_cdc_agents Coverage Results" MODIFIED="1748289702772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/main" />
     <SUITE FILE_PATH="coverage/python_parent$a2a.coverage" NAME="a2a Coverage Results" MODIFIED="1747685460983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages/cdc_agents/src/cdc_agents/agent" />
   </component>
